@@ -1,0 +1,23 @@
+
+
+95_note_sender.......  -> figured out the LOGIC but didnt  KNOW DELAYS impeded midi real time sending and receiving and also serial.print() sent bytes in output
+
+100_PERCENTO_note_sender.......  -> new version of 95_note_sender without delay and any print
+
+
+Chord_basser ................... -> first version of the bass sender but wasnt handling final bytes correctly in second while loop while(a==128)
+
+Chord_basserv1  ...................> handled them correctly with serial.peek() but was having some deadlock until i repressed bass note
+
+
+Chord_basserv2  ...................> added chord identification to chordvasser v1 BUT DEADLOCK WAS STILL PRESENT 
+
+
+Chordbasser_first_release ...> fixed deadlock from chord_basserv2
+
+Chordbasser_first_release_kEYPAD  ...> Added keypad buttons to chordbasser_first_release with START button as button A, then mode button then choice of bass octave
+
+Chordbasser_first_release_kEYPAD_modeA ..> official rename of the Chordbasser_first_release_kEYPAD!
+
+
+
